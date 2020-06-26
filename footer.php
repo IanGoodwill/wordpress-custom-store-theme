@@ -12,25 +12,9 @@
 		</div><!-- .col-full -->
 	</div><!-- #content -->
 
-	<?php do_action( 'storefront_before_footer' ); ?>
-
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="col-full">
-
-			<?php
-			/**
-			 * Functions hooked in to storefront_footer action
-			 *
-			 * @hooked storefront_footer_widgets - 10
-			 * @hooked storefront_credit         - 20
-			 */
-			do_action( 'storefront_footer' );
-			?>
-
-		</div><!-- .col-full -->
-	</footer><!-- #colophon -->
-
-	<?php do_action( 'storefront_after_footer' ); ?>
+	<footer class="text-center">
+        <p>E-Store &copy; Copyright 2020</p>
+    </footer>
 
 </div><!-- #page -->
 
